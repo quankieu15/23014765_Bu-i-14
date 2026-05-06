@@ -23,7 +23,6 @@
             echo "<p>Số người: $soNguoi</p>";
             echo "<p>Tổng tiền: " . number_format($tongTien) . " VNĐ</p>";
 
-            // Phân loại tour
             if ($giaTour < 2000000) {
                 echo "<p>Loại tour: Tour tiết kiệm</p>";
             } elseif ($giaTour <= 4000000) {
